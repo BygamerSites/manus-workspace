@@ -39,7 +39,7 @@ button:hover{background:#22c55e;color:#000}
 </style></head><body>
 <div id="crt"></div><button id="mus" onclick="MUS.toggle()"></button><div id="rec">● REC  CAM-07</div>
 <div id="menu">
-<h1>OPERAÇÃO CÓDIGO ZERO</h1><p class="sub">FIM DOS TEMPOS // CAMPANHA 3 ATOS // COOP • VERSUS • ZUMBIS</p>
+<h1>OPERAÇÃO CÓDIGO 0</h1><p class="sub">FIM DOS TEMPOS // CAMPANHA 3 ATOS // COOP • VERSUS • ZUMBIS</p>
 <div class="bg" id="mm">
 <button onclick="openSetup('solo')">1. História Solo</button>
 <button onclick="openSetup('coop')">2. História 2 Players</button>
@@ -55,7 +55,7 @@ button:hover{background:#22c55e;color:#000}
 <div id="end"><h1 id="et"></h1><p id="ed" style="margin:20px;font-size:1.2rem"></p><div class="bg" style="margin:auto"><button onclick="restart()">↻ Jogar de novo</button><button onclick="location.reload()">Voltar ao menu</button></div></div>
 <div id="pause" style="display:none"><h1>PAUSADO</h1><div class="bg" style="margin-top:20px"><button onclick="pause(false)">▶ Continuar</button><button onclick="restart()">↻ Reiniciar partida</button><button onclick="openOpts()">⚙ Opções</button><button onclick="location.reload()">⏏ Sair para o menu</button></div></div>
 <div id="opts" style="display:none"><h1 style="font-size:2rem">OPÇÕES</h1><div id="ob"></div><div class="bg" style="margin-top:14px"><button onclick="$('opts').style.display='none'">Voltar</button></div></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="three.min.js"></script>
 <script>
 const $=i=>document.getElementById(i),R=Math.random,pick=a=>a[R()*a.length|0];
 if(typeof THREE==='undefined')$('err').style.display='block';

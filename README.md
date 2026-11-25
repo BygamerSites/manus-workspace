@@ -4,7 +4,7 @@ Continuação em HTML/Three.js do shooter enviado. A campanha nova tem três ato
 
 ## Abrir e jogar
 
-Abra `index.html` em um navegador moderno com conexão à internet (o Three.js é carregado por CDN). No menu, escolha **História Solo** ou **História 2 Players** para iniciar o briefing. Para uma dupla local, o jogador 1 usa teclado e mouse; o jogador 2 usa um controle conectado.
+Abra `index.html` em um navegador moderno. O Three.js r128 está incluído localmente no repositório, então o motor 3D não depende de um CDN para iniciar. No menu, escolha **História Solo** ou **História 2 Players** para iniciar o briefing. Para uma dupla local, o jogador 1 usa teclado e mouse; o jogador 2 usa um controle conectado.
 
 ### Controles
 
